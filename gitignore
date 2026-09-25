@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python cache
+*.log
+
+# Large local/database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Power BI temporary/lock files
+~$*.pbix
+*.pbit
+
+# Keep project source files and documentation
+!README.md
+!DATA_DICTIONARY.md
+!requirements.txt
+!Tables.sql
+!Real_world_questions.sql
